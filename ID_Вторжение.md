@@ -3,7 +3,7 @@ title: "ID: Вторжение"
 anime: true
 alt_title: "Id:Invaded"
 rating: 8
-ganres: "Детектив, Психологическое, Триллер, Фантастика"
+genres: "Детектив, Психологическое, Триллер, Фантастика"
 cover: "_attachments/ID_Вторжение.png"
 ---
 
