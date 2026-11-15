@@ -1,0 +1,19 @@
+---
+layout: default
+---
+<article class="anime-page">
+  {% if page.cover %}
+  <img class="anime-cover" src="{{ page.cover | relative_url }}" alt="{{ page.title | escape }}" width="220">
+  {% endif %}
+  <dl class="anime-meta">
+    {% if page.alt_title %}<dt>Альтернативное название</dt><dd>{{ page.alt_title | escape }}</dd>{% endif %}
+    {% if page.rating %}<dt>Рейтинг</dt><dd>{{ page.rating }}</dd>{% endif %}
+    {% if page.genres %}<dt>Жанры</dt><dd>{{ page.genres | escape }}</dd>{% endif %}
+    {% if page.year %}<dt>Год</dt><dd>{{ page.year }}</dd>{% endif %}
+    {% if page.studio %}<dt>Студия</dt><dd>{{ page.studio | escape }}</dd>{% endif %}
+    {% if page.type %}<dt>Тип</dt><dd>{{ page.type | escape }}</dd>{% endif %}
+    {% if page.episodes %}<dt>Эпизоды</dt><dd>{{ page.episodes }}</dd>{% endif %}
+    {% if page.status %}<dt>Статус</dt><dd>{{ page.status | escape }}</dd>{% endif %}
+  </dl>
+  <div class="anime-body">{{ content }}</div>
+</article>

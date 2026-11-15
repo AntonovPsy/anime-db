@@ -3,7 +3,7 @@ description: База описаний аниме
 lang: ru
 url: "https://antonovpsy.github.io"
 baseurl: "/anime-db"
-theme: jekyll-theme-slate
+theme: jekyll-theme-midnight
 markdown: kramdown
 kramdown:
   input: GFM

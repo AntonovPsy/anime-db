@@ -1,0 +1,23 @@
+---
+---
+@import "{{ site.theme }}";
+
+body { color: #e8e8e8; }
+a { color: #7ab7ff; }
+a:hover { color: #a8d1ff; }
+img { max-width: 100%; height: auto; }
+
+.anime-index { width: 100%; border-collapse: collapse; table-layout: fixed; }
+.anime-index th, .anime-index td {
+  vertical-align: top;
+  padding: 8px;
+  border-bottom: 1px solid #3a3f47;
+  word-wrap: break-word;
+}
+.anime-index img { display: block; }
+
+.anime-cover { float: left; margin: 0 16px 8px 0; max-width: 220px; }
+.anime-meta { overflow: hidden; margin: 0 0 16px; }
+.anime-meta dt { font-weight: bold; color: #aaa; float: left; clear: left; width: 220px; }
+.anime-meta dd { margin: 0 0 4px 236px; }
+.anime-body { clear: both; }
