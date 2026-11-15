@@ -1,0 +1,18 @@
+title: Anime DB
+description: База описаний аниме
+lang: ru
+url: "https://antonovpsy.github.io"
+baseurl: "/anime-db"
+theme: jekyll-theme-slate
+markdown: kramdown
+kramdown:
+  input: GFM
+include:
+  - _attachments
+plugins:
+  - jekyll-remote-theme
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: default
